@@ -1,0 +1,221 @@
+.music_player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.music_player__box {
+  width: 400px;
+  height: 750px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
+
+.music_player__box:first-child {
+  margin-right: 150px;
+}
+
+.music_plyer__box-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+.music_player__box-artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music_player__box-artist-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.music_player__box-artist-title {
+  margin-top: 20px;
+}
+
+.music_player__box-artist-title-text {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.music_player__box-artist-subtitle {
+  margin-top: 20px;
+}
+
+.music_player__box-artist-subtitle-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.music_player__box-artist-function {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.music_player__box-artist-function-shuffle-btn {
+  margin-right: 30px;
+}
+
+.music_player__box-artist-function-shuffle-btn span {
+  padding: 15px 40px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 50px;
+}
+
+.music_player__box-artist-function-like-btn {
+  padding: 15px 30px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 50px;
+}
+
+.music_player__box-artist-function-like-btn span:last-child {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.music_player__box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.music_player__box-list i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.music_player__box-list-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music_player__box-list-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.music_player__box-list-info {
+  margin-left: 20px;
+}
+
+.music_player__box-list-info-title {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.music_player__box-list-info-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.music_player__box-playlist {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music_player__box-playlist-info-title {
+  margin-bottom: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.music_player__box-playlist-info-subtitle {
+  font-weight: 600;
+}
+
+.music_player__box-playlist-btn {
+  display: flex;
+  align-items: center;
+}
+
+.music_player__box-playlist-btn-pause {
+  margin: 0px 40px;
+}
+
+.music_player__box-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.music_player__box-cover-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 70px -10px;
+}
+
+.music_player__box-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.music_player__box-play-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.music_player__box-play-subtitle {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.music_player__box-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.music_player__box-range {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.music_player__box-range-customize {
+  width: 380px;
+  accent-color: black;
+}
+
+.music_player__box-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.fa-grey {
+  color: rgba(0, 0, 0, 0.2);
+}
