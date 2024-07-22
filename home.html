@@ -7,24 +7,26 @@
     <style>
         body {
             height: 1000vh;
-            margin: 20px;
+            margin: 50px;
         }
         div {
-            /* position: fixed; */
             width: 300px;
             height: 300px;
-            color: white;
-            background-color: teal;
-        }
-        #different {
-            width: 350px;
             background-color: wheat;
-            position: fixed;
+            position: relative;
+        }
+        .green {
+            background-color: teal;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
         }
     </style>
 </head>
 <body>
-    <div>1</div>
-    <div id="different"></div>
+    <div>
+        <div class="green"></div>
+    </div>
 </body>
 </html>
